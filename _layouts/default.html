@@ -1,1 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <title>{{ page.title }}</title>
+
+  <!-- Global CSS/JS that is common for all pages -->
+  <link rel="icon" href="https://sdapromoters.com/images/logo4favicon.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- If you need page-specific <head> content later: -->
+  {{ content_for_head }}
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <!-- Page content goes here -->
+  {{ content }}
+
+  {% include footer.html %}
+
+</body>
+</html>
