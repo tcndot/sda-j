@@ -3,17 +3,10 @@ layout: default
 title: About
 ---
 
-<!-- Any page-specific <style> kept here -->
-<style>
-:root{ --wrap: 1100px; --accent: #1f7a3a; --muted: #666; --card-radius: 12px; --card-padding: 20px; }
-body { font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif; color: #111; background: #fff; }
-.wrap{ max-width:var(--wrap); margin:0 auto; padding:22px; box-sizing:border-box; }
-.grid { display:grid; grid-template-columns: 1fr 320px; gap:28px; align-items:start; }
-@media (max-width:920px){ .grid{ grid-template-columns: 1fr; } }
-.card { background:#fff; border-radius: var(--card-radius); padding: var(--card-padding); box-shadow: 0 6px 22px rgba(12,20,12,0.06); border: 1px solid rgba(0,0,0,0.04); }
-</style>
+
 
 <main class="wrap">
+  <!-- पेज शीर्षक -->
   <header class="topbar">
     <div>
       <h1 id="pageTitle">SDA Infra &amp; Promoters के बारे में</h1>
@@ -22,6 +15,7 @@ body { font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif; color: #111;
   </header>
 
   <div class="grid" style="margin-top:18px;">
+    <!-- LEFT: Content -->
     <section>
       <div class="card">
         <h2>हम कौन हैं</h2>
@@ -66,6 +60,7 @@ body { font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif; color: #111;
       </div>
     </section>
 
+    <!-- RIGHT: Contact -->
     <aside>
       <div class="card">
         <h2>संपर्क</h2>
@@ -83,14 +78,18 @@ body { font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif; color: #111;
         <h2>हाल की अपडेट</h2>
         <p>हमारी नई लिस्टिंग, साइट अपडेट और खरीदी गाइड्स के लिए हमारी सोशल प्रोफाइल्स और ब्लॉग देखें।</p>
         <div style="text-align:center; margin-top:12px;">
-          <a href="https://facebook.com/sda.rameshnagar" target="_blank" class="btn secondary" style="margin-right:8px;">Facebook</a>
-          <a href="https://instagram.com/sdapromoters" target="_blank" class="btn secondary">Instagram</a>
-        </div>
+  <a href="https://facebook.com/sda.rameshnagar" target="_blank" class="btn secondary" style="margin-right:8px;">Facebook</a>
+  <a href="https://instagram.com/sdapromoters" target="_blank" class="btn secondary">Instagram</a>
+</div>
+
+        <!--p><a href="https://facebook.com/sda.rameshnagar" target="_blank">Facebook</a> • <a href="https://instagram.com/sdapromoters" target="_blank">Instagram</a></p-->
       </div>
     </aside>
-
+    <!--a href="blogs.html" class="btn" style="margin-top:8px;display:inline-block;">📘 Visit Blog</a-->
     <div style="text-align:center; margin-top:18px;">
-      <a href="blogs.html" class="btn">📘 Visit Blog</a>
-    </div>
+  <a href="blogs.html" class="btn">📘 Visit Blog</a>
+</div>
+
   </div>
 </main>
+  
