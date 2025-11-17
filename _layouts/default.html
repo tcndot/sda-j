@@ -18,8 +18,9 @@
   <!-- Global CSS/JS that is common for all pages -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- If you need page-specific <head> content later: -->
-  {{ content_for_head }}
+  <!-- Page-specific HEAD content (optional) -->
+  {{ page.head | default: "" }}
+
 </head>
 
 <body>
